@@ -1,14 +1,3 @@
-# A Blank PhoneGap App
-
-## Usage
-
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
-
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
+# Kill Team Tracker
+Provides a round counter, victory points counter, and command points counter for 2 players.
 
