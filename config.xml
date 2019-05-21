@@ -10,6 +10,6 @@
     <content src="index.html" />
     <access origin="*" />`
 </widget>
-<preference name="fullscreen" value="true" />
-<preferemce name="orientation" value="portrait" />
+<preference name="Fullscreen" value="true" />
+<preferemce name="Orientation" value="portrait" />
 
