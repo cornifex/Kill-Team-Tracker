@@ -11,7 +11,8 @@ body {
   margin: 0;
   height: 100vh;
   font-family: Roboto;
-  box-shadow: 0 0 25vw 0 inset #000;
+  box-shadow: 0 0 4vw 0 inset #000;
+  background-image: url(texture.png);
 }
 
 #main {
@@ -42,7 +43,7 @@ body {
   text-align: center;
   line-height: 50vw;
   font-size: 30vw;
-  box-shadow: 0 0 10vw #000;
+  box-shadow: 0 0 4vw #000;
 }
 
 .round-control {
@@ -59,7 +60,7 @@ body {
   border: solid 4px #fff;
   text-align: center;
   font-size: 15vw;
-  box-shadow: 0 0 10vw #000;
+  box-shadow: 0 0 2vw #000;
 }
 
 #round-down {
@@ -80,7 +81,6 @@ body {
   font-size: 10vw;
   position: relative;
   color: #fff;
-  text-shadow: 0 0 10vw #000;
 }
 
 .points {
