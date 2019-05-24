@@ -12,15 +12,12 @@
     <preference name="Fullscreen" value="true" />
     <preference name="Orientation" value="portrait" />
     <preference name="phonegap-version" value="cli-8.1.1" />
-    <platform name="android">
-        <resource-file src="resources/colors.xml" target="/app/src/main/resources/colors.xml" />
-        <icon src="icons/icon_512x512.png" />
-        <icon background="@color/background" foreground="icons/icon_48x48.png" density="mdpi" />
-        <icon background="@color/background" foreground="icons/icon_72x72.png" density="hdpi" />
-        <icon background="@color/background" foreground="icons/icon_96x96.png" density="xhdpi" />
-        <icon background="@color/background" foreground="icons/icon_144x144.png" density="xxhdpi" />
-        <icon background="@color/background" foreground="icons/icon_192x192.png" density="xxxhdpi" />
-    </platform>
+    <icon src="icons/icon_512x512.png" width="512" height="512" />
+    <icon src="icons/icon_48x48.png" platform="android" density="mdpi" />
+    <icon src="icons/icon_72x72.png" platform="android" density="hdpi" />
+    <icon src="icons/icon_96x96.png" platform="android" density="xhdpi" />
+    <icon src="icons/icon_144x144.png" platform="android" density="xxhdpi" />
+    <icon src="icons/icon_192x192.png" platform="android" density="xxxhdpi" />
 </widget>
 
 
