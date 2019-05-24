@@ -13,11 +13,11 @@
     <preference name="Orientation" value="portrait" />
     <preference name="phonegap-version" value="cli-8.1.1" />
     <icon src="icons/icon_512x512.png" width="512" height="512" />
-    <icon src="icons/icon_48x48.png" gap:platform="android" gap:density="mdpi" />
-    <icon src="icons/icon_72x72.png" gap:platform="android" gap:density="hdpi" />
-    <icon src="icons/icon_96x96.png" gap:platform="android" gap:density="xhdpi" />
-    <icon src="icons/icon_144x144.png" gap:platform="android" gap:density="xxhdpi" />
-    <icon src="icons/icon_192x192.png" gap:platform="android" gap:density="xxxhdpi" />
+    <icon src="icons/icon_48x48.png" platform="android" density="mdpi" />
+    <icon src="icons/icon_72x72.png" platform="android" density="hdpi" />
+    <icon src="icons/icon_96x96.png" platform="android" density="xhdpi" />
+    <icon src="icons/icon_144x144.png" platform="android" density="xxhdpi" />
+    <icon src="icons/icon_192x192.png" platform="android" density="xxxhdpi" />
 </widget>
 
 
